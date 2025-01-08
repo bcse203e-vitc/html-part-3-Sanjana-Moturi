@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Timetable</title>
+</head>
+<body>
+    <h1>Conference Timetable</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Room 1</th>
+                <th>Room 2</th>
+                <th>Room 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00-9:00</td>
+                <td colspan="2" style="background-color: #d4edda;" title="speaker 1- topic 1">Discussion</td>
+                <td style="background-color: #f8d7da;" title="speaker 2 - topic 2">Session</td>
+            </tr>
+            <tr>
+                <td>9:00-10:00</td>
+                <td style="background-color: #cce5ff;" title="speaker 3 - topic 3">Workshop</td>
+                <td style="background-color: #f8d7da;" title="speaker 1 - topic 4">Session</td>
+                <td rowspan="2" style="background-color: #ffe0b3;" title="speaker 3 - topic 2">Keynote</td>
+            </tr>
+            <tr>
+                <td>10:00-11:00</td>
+                <td style="background-color: #ffe0b3;" title="speaker 2 - topic 1">Keynote</td>
+                <td style="background-color: #d4edda;" title="speaker 1 - topic 5">Discussion</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Legend</h3>
+    <ul>
+        <li><span style="background-color: #d4edda; padding: 0 10px;">&nbsp;</span> Discussion</li>
+        <li><span style="background-color: #cce5ff; padding: 0 10px;">&nbsp;</span> Workshop</li>
+        <li><span style="background-color: #ffe0b3; padding: 0 10px;">&nbsp;</span> Keynote</li>
+        <li><span style="background-color: #f8d7da; padding: 0 10px;">&nbsp;</span> Session</li>
+    </ul>
+</body>
+</html>
